@@ -1,11 +1,11 @@
-# Stone: Astro Theme
+# Golden Tile on the Gold Coast, powered by Velocity V8.
 
 Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites.
 
 ## Key Features:
 
 - **Built with Tailwind CSS & Alpine.js**
-- **5+ Pages**
+- **24+ Pages**
 - **15+ Sections**
 - Clean & Modern Design
 - Fully Responsive
