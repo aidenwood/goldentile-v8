@@ -19,6 +19,7 @@ const stats = [
 ];
 ---
 
+
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="grid gap-16 lg:grid-cols-2 lg:gap-24">
@@ -26,16 +27,17 @@ const stats = [
         class="mx-auto h-auto w-full max-w-xl rounded-3xl"
         width="576"
         height="864"
-        src="/assets/slate-tile-sml.webp"
-        alt="Top rated Gold Coast tiling experts - outdoor tiles for a fair price"
+        src="/assets/waterproofing.webp"
+        alt="Top rated Gold Coast tile protective and waterproofing experts - stone tiles for a fair price"
       />
       <img
         class="mx-auto h-auto w-full max-w-xl rounded-3xl"
         width="576"
         height="864"
-        src="/assets/slate.webp"
-        alt="Top rated Gold Coast tiling experts - outdoor tiles for a fair price"
+        src="/assets/waterproofing.webp"
+        alt="Top rated Gold Coast tile protective and waterproofing experts - stone tiles for a fair price"
       />
+      
       <div class="flex flex-col gap-10">
         <!-- Mission description -->
         <div class="space-y-8 sm:space-y-12">
@@ -56,36 +58,50 @@ const stats = [
               with you to select the perfect tiles, patterns, and layouts that not only enhance the aesthetics of your outdoor 
               space but also ensure its functionality and longevity.
             </p>
-            
-      </div>
-      <div class="flex flex-col gap-10 mt-20">
-        <!-- Mission description -->
-        <div class="space-y-8 sm:space-y-12">
-          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Gold Coast Outdoor Tiling Experts</h2>
-          <div class="space-y-6">
-            
-            <h3 class="text-2xl font-medium tracking-tight">Endless Possibilities, Lasting Beauty</h3>
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              With Golden Tiling, the possibilities for your outdoor space are endless. Whether you're looking to create a serene, 
-              natural oasis with stone tiling, a contemporary retreat with modern tiles, or a tropical paradise with exotic patterns, 
-              we have the expertise to bring your ideas to life. Our outdoor tiling solutions are built to withstand the Gold Coast's 
-              climate, providing not just beauty but also durability.
-            </p>
           </div>
         </div>
 
-        <!-- Stats -->
-        <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {
-            stats.map((stat) => (
-              <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
-                <dt class="text-base">{stat.name}</dt>
-                <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
-              </div>
-            ))
-          }
-        </dl>
       </div>
+
+      <div class="flex flex-col gap-10 mt-20">
+        
+
+        <div class="flex flex-col gap-10">
+          <!-- Mission description -->
+          <div class="space-y-8 sm:space-y-12">
+            <div class="space-y-6">
+              <h3 class="text-2xl font-medium tracking-tight">Pool Tiling Solutions</h3>
+              <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                Welcome to Golden Tiling, where we turn your pool area into a luxurious oasis that mirrors the stunning landscapes of the Gold Coast. 
+                Our Pool Tiling page is your gateway to discovering the perfect blend of style, safety, and durability for your swimming pool. 
+                With a passion for perfection and a reputation for excellence, we are your trusted partners in transforming your pool into a masterpiece.
+              </p>
+              <h3 class="text-2xl font-medium tracking-tight">Design your Pool Paradise</h3>
+              <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                The Gold Coast's abundant sunshine and beautiful coastline make pool areas an integral part of our outdoor living. 
+                At Golden Tiling, we understand the unique demands and opportunities that pool tiling presents. Our team of skilled 
+                professionals is dedicated to creating not just a pool but a paradise that reflects your personal style. We offer a 
+                wide range of exquisite tile options, from slip-resistant materials for safety to elegant designs that elevate your pool's aesthetics.
+              </p>
+            </div>
+          </div>
+
+        <!-- Stats -->
+        
+      </div>
+    </div>
+    <div class="w-full">
+      <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        {
+          stats.map((stat) => (
+            <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
+              <dt class="text-base">{stat.name}</dt>
+              <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
+            </div>
+          ))
+        }
+      </dl>
     </div>
   </div>
 </section>
+

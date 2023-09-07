@@ -27,15 +27,16 @@ const stats = [
         width="576"
         height="864"
         src="/assets/waterproofing.webp"
-        alt="Top rated Gold Coast slate tiling experts - slate tiles for a fair price"
+        alt="Top rated Gold Coast tile protective and waterproofing experts - stone tiles for a fair price"
       />
       <img
         class="mx-auto h-auto w-full max-w-xl rounded-3xl"
         width="576"
         height="864"
         src="/assets/waterproofing.webp"
-        alt="Top rated Gold Coast slate tiling experts - slate tiles for a fair price"
+        alt="Top rated Gold Coast tile protective and waterproofing experts - stone tiles for a fair price"
       />
+      
       <div class="flex flex-col gap-10">
         <!-- Mission description -->
         <div class="space-y-8 sm:space-y-12">
@@ -55,38 +56,47 @@ const stats = [
               remains resilient against moisture, leaks, and other environmental stressors. From basements to bathrooms, balconies to rooftops, 
               our waterproofing services create a protective barrier that gives you peace of mind.
             </p>
-            
-      </div>
-      <div class="flex flex-col gap-10">
-        <!-- Mission description -->
-        <div class="space-y-8 sm:space-y-12">
-          
-            <h3 class="text-2xl font-medium tracking-tight">Quality you can Trust</h3>
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              At Golden Tiling, we take pride in being your trusted partner in property protection. Our dedication to excellence, quality materials, 
-              and craftsmanship shines through in every project we undertake. We are committed to delivering solutions that not only shield your 
-              property from the elements but also enhance its longevity and value.
-            </p>
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Protect your investment with Golden Tiling's waterproofing and protective services. Contact us today to schedule a consultation and let 
-              us help you fortify your spaces against the challenges of time and nature. Your property deserves nothing less than the best in protective 
-              care, and that's exactly what we provide.
-            </p>
           </div>
         </div>
 
-        <!-- Stats -->
-        <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {
-            stats.map((stat) => (
-              <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
-                <dt class="text-base">{stat.name}</dt>
-                <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
-              </div>
-            ))
-          }
-        </dl>
       </div>
+
+      <div class="flex flex-col gap-10 mt-20">
+        
+
+        <div class="flex flex-col gap-10">
+          <!-- Mission description -->
+          <div class="space-y-8 sm:space-y-12">
+            <div class="space-y-6">
+              <h3 class="text-2xl font-medium tracking-tight">Quality you can Trust</h3>
+              <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                At Golden Tiling, we take pride in being your trusted partner in property protection. Our dedication to excellence, quality materials, 
+                and craftsmanship shines through in every project we undertake. We are committed to delivering solutions that not only shield your 
+                property from the elements but also enhance its longevity and value.
+              </p>
+              <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                Protect your investment with Golden Tiling's waterproofing and protective services. Contact us today to schedule a consultation and let 
+                us help you fortify your spaces against the challenges of time and nature. Your property deserves nothing less than the best in protective 
+                care, and that's exactly what we provide.
+              </p>
+            </div>
+          </div>
+
+        <!-- Stats -->
+        
+      </div>
+    </div>
+    <div class="w-full">
+      <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        {
+          stats.map((stat) => (
+            <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
+              <dt class="text-base">{stat.name}</dt>
+              <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
+            </div>
+          ))
+        }
+      </dl>
     </div>
   </div>
 </section>
