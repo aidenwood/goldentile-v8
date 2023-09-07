@@ -1,6 +1,6 @@
 # Golden Tile on the Gold Coast, powered by Velocity V8.
 
-Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites.
+Velocity is a Web3 theme helping service-based businesses own more professional websites, that create more business for them. Designed and Developed by Aidxn Design on the Gold Coast.
 
 ## Key Features:
 
