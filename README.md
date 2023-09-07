@@ -1,11 +1,11 @@
 # Golden Tile on the Gold Coast, powered by Velocity V8.
 
-Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites.
+Velocity is a Web3 theme helping service-based businesses own more professional websites, that create more business for them. Designed and Developed by Aidxn Design on the Gold Coast.
 
 ## Key Features:
 
 - **Built with Tailwind CSS & Alpine.js**
-- **24+ Pages**
+- **8 Pages**
 - **15+ Sections**
 - Clean & Modern Design
 - Fully Responsive
@@ -16,41 +16,7 @@ Stone is a free and open-source Astro theme specially designed for Business, Mar
 - **Prettier** Code Formatter
 - **Google Fonts**
 - **Remix Icons**
-- Free Updates
 
-## Getting Started
-
-### Requirements
-
-- Basic knowledge of Astro, HTML and CSS.
-- Text editor (We recommend Visual Studio Code)
-- Node.js 18 or higher.
-
-### Install dependencies
-
-Navigate to your project folder and install its dependencies:
-
-```
-npm install
-```
-
-### Start
-
-Once the installation is done, you can now run your app:
-
-```
-npm run dev
-```
-
-This runs the app in development mode. Open http://localhost:3000 to view it in the browser.
-
-### Build
-
-```
-npm run build
-```
-
-This builds the app for production to the `./dist/` folder.
 
 ## Project Structure
 
@@ -83,14 +49,7 @@ Inside the project, you'll see the following folders and files:
 - `tailwind.config.cjs` - Tailwind configuration file. The theme section is where you define your color palette and fonts.
 - `tsconfig.json` - TypeScript configuration file.
 
-## Deployment
-
-Ready to build and deploy your site? Follow the [official documentation](https://docs.astro.build/en/guides/deploy/).
-
 ## Support
 
-If you have any questions or suggestions do not hesitate to contact me.
-
-## License
-
-This project is licensed under the terms of the MIT license.
+If you have any questions or suggestions do not hesitate to contact me at 
+### hi@aidxn.com
