@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <div class="main-carousel">
+  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, freeScroll: true }'>
     <div class="carousel-cell">
       <img
         class="h-auto w-full md:w-2/3 rounded-3xl"
@@ -63,18 +63,3 @@
     </div>
   </div>
 </section>
-
-<script>
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-
-// element argument can be a selector string
-//   for an individual element
-var flkty = new Flickity( '.main-carousel', {
-  // options
-});
-</script>
