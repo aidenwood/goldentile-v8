@@ -3,6 +3,7 @@ const features = [
   {
     id: 'expertise-1',
     name: 'Bathroom Tiling',
+    link: '/bathroom-tiling',
     description:
       'Transform your Gold Coast bathroom with our top-tier bathroom tiling services, delivered by expert tiling contractors. Our meticulous craftsmanship ensures water-resistant and visually stunning results that elevate your space.',
   },
@@ -15,24 +16,28 @@ const features = [
   {
     id: 'expertise-3',
     name: 'Pool Tiling',
+    link: '/pool-tiling',
     description:
       'Our Gold Coast kitchen tiling services, performed by experienced tiling contractors, bring style and longevity to your culinary space. Explore our range of designs to find the perfect fit for your kitchen, delivered with precision and expertise.',
   },
   {
     id: 'expertise-4',
     name: 'Stone Tiling',
+    link: '/stone-tiling',
     description:
       'Elevate your Gold Coast property with exquisite stone tiling, professionally executed by our tiling contractors. Our installations seamlessly blend natures beauty with your indoor or outdoor areas, providing both aesthetics and durability.',
   },
   {
     id: 'expertise-5',
     name: 'Slate Tiling',
+    link: '/slate-tiling',
     description:
       'Discover the enduring charm of Gold Coast slate tiling, installed by our skilled tiling contractors. Our expertise combines rustic allure with longevity, making your outdoor spaces as visually appealing as they are robust.',
   },
   {
     id: 'expertise-6',
     name: 'Patio Tiling',
+    link: '/patio-tiling',
     description:
       'Maximize your Gold Coast patios potential with our patio tiling services, expertly delivered by tiling contractors. Choose from a variety of materials and designs to create an outdoor space that not only looks great but also stands the test of time.',
   },
@@ -56,7 +61,7 @@ const features = [
                 x-bind:class="{ 'bg-primary-500/10 dark:bg-primary-400/10': isOpen }"
               >
                 <dt
-                  class="border-b text-lg transition"
+                  class="border-b text-2xl transition"
                   x-cloak
                   x-bind:class="{ 'border-transparent': isOpen || isNextOpen, 'border-primary-900/10 dark:border-primary-300/10': !(isOpen || isNextOpen) }"
                 >
@@ -89,6 +94,12 @@ const features = [
                   <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
                     {feature.description}
                   </p>
+                  <a
+                    href={feature.link}
+                    class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                  >
+                    Get a Quote
+                  </a>
                 </dd>
               </div>
             ))
