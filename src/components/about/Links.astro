@@ -1,0 +1,56 @@
+---
+const stats = [
+  {
+    name: 'Bathroom Tiling',
+    link: '/bathroom-tiling'
+  },
+  {
+    name: 'Pool Tiling',
+    link: '/pool-tiling'
+  },
+  {
+    name: 'Outdoor Tiling',
+    link: '/outdoor-tiling'
+  },
+  {
+    name: 'Stone Tiling',
+    link: '/stone-tiling'
+  },
+  {
+    name: 'Slate Tiling',
+    link: '/slate-tiling'
+  },
+  {
+    name: 'Protective Services',
+    link: '/protective-services'
+  },
+];
+---
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="grid gap-16 lg:grid-cols-2 lg:gap-24">
+      <img
+        class="mx-auto h-auto w-full max-w-xl rounded-3xl"
+        width="576"
+        height="864"
+        src="/assets/about.webp"
+        alt="Our experts working together"
+      />
+      <div class="flex flex-col gap-10">
+        <!-- Stats -->
+        <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+          {
+            stats.map((stat) => (
+            <a href={stat.link}>  
+              <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
+                <dt class="text-3xl font-medium">{stat.name}</dt>
+              </div>
+            </a>
+            ))
+          }
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
