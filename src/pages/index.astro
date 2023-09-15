@@ -3,8 +3,9 @@ import About from '../components/home/About.astro';
 import Cta from '../components/home/Cta.astro';
 import Expertise from '../components/home/Expertise.astro';
 import Hero from '../components/home/Hero.astro';
-import Services from '../components/home/Services.astro';
 import Slider from '../components/home/Slider.astro';
+import Quote from '../components/contact/QuoteForm-Web3.astro';
+import Services from '../components/home/Services.astro';
 import Links from '../components/home/Links.astro';
 import Testimonials from '../components/home/Testimonials.astro';
 import Layout from '../layouts/Layout.astro';
@@ -15,9 +16,12 @@ import Layout from '../layouts/Layout.astro';
   title="Golden Tile · Gold Coast Tiler"
 >
   <Hero />
+  <Slider />
+  <Quote />
+
   <About />
   <Expertise />
-  <Slider />
+  
   <Services />
   <Testimonials />
   <Cta />
