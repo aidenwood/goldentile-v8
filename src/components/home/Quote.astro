@@ -1,0 +1,228 @@
+---
+const services = [
+  {
+    step: '01',
+    name: 'Design',
+    description:
+      'Attention to detail and a keen eye for aesthetics, our experienced team will collaborate closely with you to bring your vision to life. From conceptual sketches to detailed plans, we ensure that every aspect of your project is carefully considered, resulting in a design that combines functionality, beauty, and innovation. Whether you are looking to transform your space or embark on a new venture, our design experts are here to make your dreams a reality.',
+  },
+  {
+    step: '02',
+    name: 'Build',
+    description:
+      'Our build services are where imagination meets reality. With a team of skilled craftsmen and cutting-edge technology, we take the design concept and bring it to life with precision and efficiency. From the foundation to the finishing touches, our construction team is dedicated to delivering quality workmanship, on-time completion, and adherence to budget. We take pride in our ability to turn architectural visions into a testament to our commitment to excellence in construction.',
+  },
+  {
+    step: '03',
+    name: 'Maintain',
+    description:
+      'Once your project is complete, our commitment to your satisfaction does not end. Our maintenance services ensure that your investment retains its beauty and functionality for years to come. Whether it is routine upkeep, repairs, or renovations, our dedicated maintenance team is equipped to handle all your needs. We understand that your space evolves over time, and we are here to provide the ongoing care and attention it deserves, ensuring that it remains a source of pride and enjoyment.',
+  },
+];
+---
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto px-4 sm:px-6 w-full lg:max-w-7xl lg:px-8">
+    <div class="flex flex-col gap-4 sm:gap-6">
+  
+      <div class="grid gap-8 lg:grid-cols-3">
+            <div class="flex flex-col gap-12">
+
+              <div class="bg-primary-500/10 dark:bg-primary-400/10 rounded-3xl px-6 py-8 flex flex-col gap-4">
+                <h3 class="text-xl font-medium">Concrete Skreeding</h3>
+                <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
+                  Professional concrete skeeding for tiling.
+                </p>
+              </div>
+
+              <div class="bg-primary-500/10 dark:bg-primary-400/10 rounded-3xl px-6 py-8 flex flex-col gap-4">
+                <h3 class="text-xl font-medium">Waterproofing</h3>
+                <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
+                  High quality waterproofing layers.
+                </p>
+              </div>
+
+              <div class="bg-primary-500/10 dark:bg-primary-400/10 rounded-3xl px-6 py-8 flex flex-col gap-4">
+                <h3 class="text-xl font-medium">Tiling Supplies</h3>
+                <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
+                  Builders rate tile and tiling supplies.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-12 px-4 lg:col-span-2">
+              <div class="flex flex-col gap-4">
+                <h3 class="text-xl font-medium">Get a Quote in 24 Hours</h3>
+                <p class="text-primary-950/70 dark:text-primary-200/70 text-base">
+                  Obligation-free quoting on any tiling project, or call me on 0413 494 402 to discuss further details.
+                </p>
+                
+                <!-- To make this contact form work, create your free access key from https://web3forms.com/
+                Then you will get all form submissions in your email inbox. -->
+                <form netlify
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  id="form"
+                  class="needs-validation"
+                  novalidate>
+                  <input type="hidden" name="access_key" value="1e0ffadd-2f05-471b-bbc2-36fa32793837" />
+                  <!-- Create your free access key from https://web3forms.com/ -->
+                  <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
+                  <div class="mb-5">
+                    <input
+                      type="text"
+                      placeholder="Full Name"
+                      required
+                      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+                      name="name"
+                    />
+                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                      Please provide your full name.
+                    </div>
+                  </div>
+                  <div class="mb-5">
+                    <label for="phone" class="sr-only">Phone Number</label><input
+                      id="phone"
+                      name="phone"
+                      type="number"
+                      placeholder="Phone Number"
+                      required
+                      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+                    />
+                    <div class="empty-feedback text-red-400 text-sm mt-1">
+                      Please provide your phone number.
+                    </div>
+                    <div class="invalid-feedback text-red-400 text-sm mt-1">
+                      Please provide a valid phone number.
+                    </div>
+                  </div>
+                  <div class="mb-5">
+                    <label for="email_address" class="sr-only">Email Address</label><input
+                      id="email_address"
+                      type="email"
+                      placeholder="Email Address"
+                      name="email_address"
+                      required
+                      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+                    />
+                    <div class="empty-feedback text-red-400 text-sm mt-1">
+                      Please provide your email address.
+                    </div>
+                    <div class="invalid-feedback text-red-400 text-sm mt-1">
+                      Please provide a valid email address.
+                    </div>
+                  </div>
+                  <div class="mb-5">
+                    <label for="project_address" class="sr-only">Project Address</label><input
+                      id="project_address"
+                      type="text"
+                      placeholder="42 Wallaby Way, Sydney"
+                      name="project_address"
+                      required
+                      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+                    />
+                    <div class="empty-feedback text-red-400 text-sm mt-1">
+                      Please provide your email address.
+                    </div>
+                    <div class="invalid-feedback text-red-400 text-sm mt-1">
+                      Please provide a valid email address.
+                    </div>
+                  </div>
+                  <div class="mb-5">
+                    <textarea
+                      name="message"
+                      required
+                      placeholder="Project Details, job size, tile type, etc."
+                      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+                    ></textarea>
+                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                      Provide details on the project, job size, tile type.
+                    </div>
+                  </div>
+                  <button
+                    class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                  <div id="result" class="mt-3 text-center"></div>
+                </form>
+
+              </div>
+            </div>
+         
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+  .invalid-feedback,
+  .empty-feedback {
+    display: none;
+  }
+
+  .was-validated :placeholder-shown:invalid ~ .empty-feedback {
+    display: block;
+  }
+
+  .was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+    display: block;
+  }
+
+  .is-invalid,
+  .was-validated :invalid {
+    border-color: #dc3545;
+  }
+</style>
+
+<script is:inline>
+  const form = document.getElementById("form");
+  const result = document.getElementById("result");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    form.classList.add("was-validated");
+    if (!form.checkValidity()) {
+      form.querySelectorAll(":invalid")[0].focus();
+      return;
+    }
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    result.innerHTML = "Sending...";
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+          result.classList.add("text-green-500");
+          result.innerHTML = json.message;
+        } else {
+          console.log(response);
+          result.classList.add("text-red-500");
+          result.innerHTML = json.message;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        result.innerHTML = "Something went wrong!";
+      })
+      .then(function () {
+        form.reset();
+        form.classList.remove("was-validated");
+        setTimeout(() => {
+          result.style.display = "none";
+        }, 5000);
+      });
+  });
+</script>
