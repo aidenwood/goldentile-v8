@@ -71,4 +71,17 @@ const stats = [
     </div>
     
   </div>
+
+  <div class="w-full my-16">
+    <dl class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+      {
+        stats.map((stat) => (
+          <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-8">
+            <dt class="text-base">{stat.name}</dt>
+            <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </div>
 </section>

@@ -1,35 +1,14 @@
----
-const stats = [
-  {
-    name: 'Years',
-    value: '25',
-  },
-  {
-    name: 'Experts',
-    value: '3',
-  },
-  {
-    name: 'Projects',
-    value: '1000+',
-  },
-  {
-    name: 'Awards',
-    value: "3",
-  },
-];
----
-
-
+<!-- Complex Info V2 -->
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 flex justify-center items-center">
     <div class="grid gap-16 lg:grid-cols-2 lg:gap-24">
-      <div class="flex flex-col gap-10 mt-20 items-center justify-center">
+      <div class="flex flex-col gap-10 my-20 items-center justify-center">
         
         <div class="flex flex-col gap-10">
           <!-- Mission description -->
           <div class="space-y-8 sm:space-y-12">
             <div class="space-y-6">
-              <h3 class="text-3xl sm:text-4xl font-medium tracking-tight">Elegant Pool Designs</h3>
+              <h3 class="text-3xl sm:text-4xl font-medium tracking-tight">Custom Tiling Designs</h3>
               <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
                 With over 15 years of professional tiling experience, personally with our head tiler, Alex Nora.
                 You can have the tiling pattern of your dreams, only limited by your creativity.
@@ -37,16 +16,12 @@ const stats = [
             </div>
           </div>
 
-          <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-            {
-              stats.map((stat) => (
-                <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
-                  <dt class="text-base">{stat.name}</dt>
-                  <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
-                </div>
-              ))
-            }
-          </dl>
+        <a
+          href="/contact"
+          class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+        >
+          Ask a Question
+        </a>
 
       </div>
     </div>
@@ -56,7 +31,7 @@ const stats = [
         class="mx-auto h-auto w-full max-w-xl rounded-3xl"
         width="576"
         height="864"
-        src="/assets/bath.webp"
+        src="/assets/pool/pool-v1.webp"
         alt="Top rated Gold Coast bathroom tiling experts - bathroom tiles for a fair price"
       />
       
