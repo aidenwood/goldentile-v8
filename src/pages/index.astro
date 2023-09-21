@@ -4,12 +4,16 @@ import Cta from '../components/home/Cta.astro';
 import Expertise from '../components/home/Expertise.astro';
 import Hero from '../components/home/Hero.astro';
 import Slider from '../components/home/Slider.astro';
-import ExtraServices from '../components/home/Extra-Services.astro';
+import InfoPool from '../components/home/Info-Pool.astro';
+import InfoBath from '../components/home/Info-Bath.astro';
+import InfoKitchen from '../components/home/Info-Kitchen.astro';
 
 import Quote from '../components/home/Quote.astro';
 import Services from '../components/home/Services.astro';
 import Links from '../components/home/Links.astro';
 import Testimonials from '../components/home/Testimonials.astro';
+import ExtraServices from '../components/home/Extra-Services.astro';
+
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -18,17 +22,20 @@ import Layout from '../layouts/Layout.astro';
   title="Golden Tile · Gold Coast Tiler"
 >
   <Hero />
-  <Slider />
-  <Links />
-
-  <About />
-  <Quote />
-  <Expertise />
   
   <Services />
-  <Testimonials />
-  <ExtraServices />
 
+  <InfoPool />
+  <InfoBath />
+  <InfoKitchen />
+  
+  <Quote />
+  <Slider />
+
+  <Expertise />
+  <Testimonials />
+  <About />
+  
   <Cta />
 
 </Layout>

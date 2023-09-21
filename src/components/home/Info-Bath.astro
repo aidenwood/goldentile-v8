@@ -18,17 +18,25 @@ const stats = [
   },
 ];
 ---
+<style>
+  #grid-reverse { direction: rtl; }
+  @media only screen and (max-width: 1023px) {
+  #grid-reverse {
+    direction: ltr;
+  }
+}
+</style>
 
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 flex ">
-    <div class="grid gap-8 lg:grid-cols-3">
+    <div id="grid-reverse" class="grid gap-8 lg:grid-cols-3">
       <div class="flex flex-col justify-center">
         
         <div>
           <!-- Mission description -->
-          <div class="flex flex-col gap-10">
+          <div style="direction: ltr;" class="flex flex-col gap-10">
             <div class="flex flex-col gap-4 sm:gap-6">
-              <h3 class="text-3xl sm:text-4xl font-medium tracking-tight">High-Quality Bathroom Tiling</h3>
+              <h2 class="text-3xl sm:text-4xl font-medium tracking-tight">Bathroom Tiling</h2>
               <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg max-w-2xl">
                 I have completed hundreds of bathroom tiling projects from full renovations to 
                 small service / repair jobs. Get in contact for great bathroom tiling work guarenteed.
@@ -36,16 +44,16 @@ const stats = [
             </div>
             <div class="flex flex-row gap-4">
               <a
-                href="/quote"
+                href="/bathroom-tiling"
                 class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
               >
-                Quote
+                Bathroom Tiling
               </a>
               <a
-                href="/contact"
+                href="/protective-services"
                 class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
               >
-                Contact
+                Screeding
               </a>
             </div>
           </div>
