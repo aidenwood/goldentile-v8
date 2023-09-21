@@ -14,7 +14,7 @@ const stats = [
   },
   {
     name: 'Awards',
-    value: "3",
+    value: '3',
   },
 ];
 ---
@@ -23,20 +23,6 @@ const stats = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="grid gap-16 lg:grid-cols-2 lg:gap-24">
-      <img
-        class="mx-auto h-auto w-full max-w-xl rounded-3xl"
-        width="576"
-        height="864"
-        src="/assets/outdoor-tiles.webp"
-        alt="Top rated Gold Coast outdoor tiling experts - outdoor tiles for a fair price"
-      />
-      <img
-        class="mx-auto h-auto w-full max-w-xl rounded-3xl"
-        width="576"
-        height="864"
-        src="/assets/outdoor-sml.webp"
-        alt="Top rated Gold Coast outdoor tiling experts - outdoor tiles for a fair price"
-      />
       
       <div class="flex flex-col gap-10">
         <!-- Mission description -->
@@ -90,18 +76,18 @@ const stats = [
         
       </div>
     </div>
-    <div class="w-full">
-      <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-        {
-          stats.map((stat) => (
-            <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
-              <dt class="text-base">{stat.name}</dt>
-              <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
-            </div>
-          ))
-        }
-      </dl>
-    </div>
+  </div>
+  <div class="w-full my-16">
+    <dl class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+      {
+        stats.map((stat) => (
+          <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
+            <dt class="text-base">{stat.name}</dt>
+            <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
+          </div>
+        ))
+      }
+    </dl>
   </div>
 </section>
 
