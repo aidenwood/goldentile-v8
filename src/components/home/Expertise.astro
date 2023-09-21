@@ -49,7 +49,7 @@ const features = [
   <div class="mx-auto px-4 sm:px-6 w-full lg:max-w-7xl lg:px-8">
     <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
       <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Expertise</h2>
-      <div class="lg:col-span-2">
+      <div class="lg:col-span-2 sm:px-6">
         <dl
           class="-mt-3"
           x-data="{ selected: null, toggle(value) { this.selected = this.selected === value ? null : value } }"
@@ -57,7 +57,7 @@ const features = [
           {
             features.map((feature, index) => (
               <div
-                class="rounded-3xl px-4 transition"
+                class="rounded-3xl transition"
                 x-data={`{ id: ${index}, get isOpen() { return this.id === this.selected }, get isNextOpen() { return (this.id + 1) === this.selected } }`}
                 x-bind:class="{ 'bg-primary-500/10 dark:bg-primary-400/10': isOpen }"
               >
