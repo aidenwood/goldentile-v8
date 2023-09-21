@@ -1,0 +1,60 @@
+<!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<!-- Perfect Flickity Secondary Page -->
+<style>
+  .carousel-cell {
+  margin-right: 15px;
+  width: 65%;
+  height: 620px;
+  max-width: 1080px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .carousel-cell {
+    width: 80%;
+    height: 420px;
+  }
+}
+
+.carousel-cell.size-vertical { width: 35%; }
+@media only screen and (max-width: 1440px) {
+  .carousel-cell.size-vertical {
+    width: 50%;
+  }
+}
+</style>
+
+<section class="py-4 sm:py-8 mb-4">
+  
+  <div class="mx-auto px-4 sm:px-6 w-full lg:px-8">
+    <div class="carousel" data-flickity='{ "wrapAround": true, "freeScroll": true, "contain": true, "autoPlay": 1400, "groupCells": "33%" }'>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/screed/screed-1.webp);"></div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/screed/screed-2.webp);"></div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/screed/screed-3.webp);"></div>
+      
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/screed/screed-4.webp);"></div>
+
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/screed/screed-5.webp);"></div>
+      
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/screed/screed-6.webp);"></div>
+      
+      <div class="carousel-cell  min-h-full rounded-3xl">
+        <img
+          class=" rounded-3xl"
+          width="920"
+          height="460"
+          src="/assets/screed/screed-7.webp"
+          alt="Gold Coast Protective Tiling Services such as Screeding and Waterproofing - Professional Tiling by Golden Tile for a Gold Coast client"
+        />
+      </div>
+      <!-- bg-cover effect needs atleast one image used at back for flickity to work -->
+    </div>
+  </div>
+</section>

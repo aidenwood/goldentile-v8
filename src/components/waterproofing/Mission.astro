@@ -1,0 +1,89 @@
+---
+const stats = [
+  {
+    name: 'Years',
+    value: '15',
+  },
+  {
+    name: 'Experts',
+    value: '3',
+  },
+  {
+    name: 'Projects',
+    value: '250+',
+  },
+  {
+    name: 'Awards',
+    value: '3',
+  },
+];
+---
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+    <div class="grid gap-16 lg:grid-cols-2 lg:gap-24">
+      
+      <div class="flex flex-col gap-10">
+        <!-- Mission description -->
+        <div class="space-y-8 sm:space-y-12">
+          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Gold Coast Protective & Waterproofing Experts</h2>
+          <div class="space-y-6">
+            <h3 class="text-2xl font-medium tracking-tight">Preserving your Spaces</h3>
+            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+              Water intrusion and environmental wear and tear can compromise the integrity of your property over time. At Golden Tiling, 
+              our mission is to help you preserve your spaces by providing top-notch waterproofing and protective solutions. Whether you're 
+              a homeowner looking to protect your family's sanctuary or a business owner safeguarding your commercial property, we tailor 
+              our services to meet your specific needs.
+            </p>
+            <h3 class="text-2xl font-medium tracking-tight">Waterproofing Experts</h3>
+            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+              Our team of experts possesses a deep understanding of the Gold Coast's unique climate and its potential challenges. With a keen 
+              eye for detail and a commitment to utilizing the latest advancements in waterproofing technology, we ensure that your property 
+              remains resilient against moisture, leaks, and other environmental stressors. From basements to bathrooms, balconies to rooftops, 
+              our waterproofing services create a protective barrier that gives you peace of mind.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col gap-10 mt-20">
+        
+
+        <div class="flex flex-col gap-10">
+          <!-- Mission description -->
+          <div class="space-y-8 sm:space-y-12 lg:mt-2">
+            <div class="space-y-6">
+              <h3 class="text-2xl font-medium tracking-tight">Quality you can Trust</h3>
+              <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                At Golden Tiling, we take pride in being your trusted partner in property protection. Our dedication to excellence, quality materials, 
+                and craftsmanship shines through in every project we undertake. We are committed to delivering solutions that not only shield your 
+                property from the elements but also enhance its longevity and value.
+              </p>
+              <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                Protect your investment with Golden Tiling's waterproofing and protective services. Contact us today to schedule a consultation and let 
+                us help you fortify your spaces against the challenges of time and nature. Your property deserves nothing less than the best in protective 
+                care, and that's exactly what we provide.
+              </p>
+            </div>
+          </div>
+
+        <!-- Stats -->
+        
+      </div>
+    </div>
+    
+  </div>
+  <div class="w-full">
+    <dl class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+      {
+        stats.map((stat) => (
+          <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
+            <dt class="text-base">{stat.name}</dt>
+            <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </div>
+</section>
