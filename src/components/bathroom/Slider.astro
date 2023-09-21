@@ -4,169 +4,70 @@
 <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-<!-- Perfect Flickity Styling -->
+<!-- Perfect Flickity Secondary Page -->
 <style>
   .carousel-cell {
   margin-right: 15px;
-  width: 33%;
-  max-height: 520px;
+  width: 65%;
+  height: 620px;
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1440px) {
   .carousel-cell {
-    width: 66%;
+    width: 80%;
     height: 420px;
   }
 }
 
-.carousel-cell.size-phat { width: 37%; }
-@media only screen and (max-width: 1199px) {
-  .carousel-cell.size-phat {
-    width: 33%;
-  }
-}
-
-.carousel-cell.size-vertical { width: 18.5%; }
-@media only screen and (max-width: 1199px) {
+.carousel-cell.size-vertical { width: 35%; }
+@media only screen and (max-width: 1440px) {
   .carousel-cell.size-vertical {
-    width: 37%;
+    width: 50%;
   }
 }
 </style>
 
 <section class="py-4 sm:py-8 mb-4">
   
-
   <div class="mx-auto px-4 sm:px-6 w-full lg:px-8">
-    <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true }'>
-      <div class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-1.webp"
-          alt="Hero picture - Slate Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-2.webp"
-          alt="Hero picture - Pool Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-3.webp"
-          alt="Hero picture - Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-4.webp"
-          alt="Hero picture - Lounge Room and Living Room large format Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell size-phat">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-5.webp"
-          alt="Hero picture - Pool Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
+    <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "autoPlay": 1400 }'>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-6.webp);"></div>
+
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-1.webp);"></div>
       
-      <div class="carousel-cell size-phat">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-6.webp"
-          alt="Hero picture - Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-2.webp);"></div>
       
-      <div class="carousel-cell size-phat">
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-7.webp);"></div>
+
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-3.webp);"></div>
+      
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-4.webp);"></div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-5.webp);"></div>
+      
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-8.webp);"></div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-9.webp);"></div>
+      
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-10.webp);"></div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-11.webp);"></div>
+
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-12.webp);"></div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-13.webp);"></div>
+      
+      <div class="carousel-cell min-h-full size-vertical rounded-3xl">
         <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-7.webp"
-          alt="Hero picture - Stone Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-8.webp"
-          alt="Hero picture - Waterproofing and Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell size-phat">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-9.webp"
-          alt="Hero picture - Waterproofing and Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell size-phat">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-10.webp"
-          alt="Hero picture - Waterproofing and Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-11.webp"
-          alt="Hero picture - Waterproofing and Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-12.webp"
-          alt="Hero picture - Waterproofing and Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div class="carousel-cell size-phat">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
-          src="/assets/bath/bath-13.webp"
-          alt="Hero picture - Waterproofing and Bathroom Tiling by Golden Tile for a Gold Coast client"
-        />
-      </div>
-      <div id="verticalImg" class="carousel-cell">
-        <img
-          class="h-auto"
-          width="920"
-          height="460"
+          class=" rounded-3xl"
+          width="460"
+          height="920"
           src="/assets/bath/bath-14.webp"
-          alt="Hero picture - Waterproofing and Bathroom Tiling by Golden Tile for a Gold Coast client"
+          alt="Gold Coast Tiler and Professional Tiling by Golden Tile for a Gold Coast client"
         />
       </div>
+      <!-- bg-cover effect needs atleast one image used at back for flickity to work -->
     </div>
   </div>
 </section>
