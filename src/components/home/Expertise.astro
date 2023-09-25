@@ -57,7 +57,7 @@ const features = [
           {
             features.map((feature, index) => (
               <div
-                class="rounded-3xl transition"
+                class="rounded-3xl px-4 transition"
                 x-data={`{ id: ${index}, get isOpen() { return this.id === this.selected }, get isNextOpen() { return (this.id + 1) === this.selected } }`}
                 x-bind:class="{ 'bg-primary-500/10 dark:bg-primary-400/10': isOpen }"
               >

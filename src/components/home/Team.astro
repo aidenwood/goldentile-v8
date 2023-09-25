@@ -5,24 +5,14 @@ const team = [
     image: '/assets/team-1.webp',
     job: 'Owner / Lead Tiler',
   },
-  {
-    name: 'Emma Dorsey',
-    image: '/assets/team-2.webp',
-    job: 'Tiler',
-  },
-  {
-    name: 'Emily Mitchell',
-    image: '/assets/team-3.webp',
-    job: 'Apprentice Tiler',
-  },
 ];
 ---
 
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="sm:space-8 space-y-12">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Meet our team</h2>
-      <ul role="list" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <h2 class="font-medium mx-auto max-w-xl text-center text-md tracking-widest uppercase">Professional Gold Coast Tiler</h2>
+      <ul role="list" class="grid grid-cols-1 gap-8">
         {
           team.map((item) => (
             <li class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border px-6 py-8">
