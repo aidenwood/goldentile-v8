@@ -37,10 +37,17 @@ const features = [
   },
   {
     id: 'expertise-6',
-    name: 'Waterproofing and Protective Services',
-    link: '/protective-services',
+    name: 'Waterproofing',
+    link: '/waterproofing',
     description:
       'Water intrusion and environmental wear and tear can compromise the integrity of your property over time. At Golden Tiling, our mission is to help you preserve your spaces by providing top-notch waterproofing and protective solutions. ',
+  },
+  {
+    id: 'expertise-7',
+    name: 'Screeding',
+    link: '/screeding',
+    description:
+      'At A N Golden Tiling, we bring our passion for precision and dedication to quality to every aspect of our services, including screeding. Our screeding services provide the essential foundation for flawless tiling installations, ensuring a level and stable surface that enhances both the aesthetics and durability of your tiling project. With years of experience and expertise, we take pride in delivering screeding solutions that meet the highest industry standards, making us your trusted partner for achieving a seamless and long-lasting tiling experience.',
   },
 ];
 ---
@@ -48,7 +55,7 @@ const features = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto px-4 sm:px-6 w-full lg:max-w-7xl lg:px-8">
     <div class="grid gap-12 lg:grid-cols-3 lg:gap-8">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Expertise</h2>
+      <h4 class="text-3xl font-medium tracking-tight sm:text-4xl">Expertise</h4>
       <div class="lg:col-span-2 sm:px-6">
         <dl
           class="-mt-3"
@@ -75,7 +82,7 @@ const features = [
                     x-bind:aria-expanded="isOpen.toString()"
                   >
                     <div class="group-focus-visible:outline-primary-950 dark:group-focus-visible:outline-primary-200 flex items-center justify-between rounded-3xl group-focus-visible:outline group-focus-visible:outline-2 group-focus-visible:outline-offset-2">
-                      <span class="font-medium">{feature.name}</span>
+                      <h3 class="font-medium">{feature.name}</h3>
                       <span class="ml-6 flex h-7 items-center">
                         <svg
                           class="text-primary-600 dark:text-primary-400 h-6 w-6 rotate-0 transform transition duration-200 ease-in-out"
