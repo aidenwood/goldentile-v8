@@ -9,21 +9,41 @@
   .carousel-cell {
   margin-right: 15px;
   width: 65%;
-  height: 620px;
-  max-width: 1080px;
+  height: 720px;
+  max-width: 1440px;
+  max-height: 80vh;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1680px) {
   .carousel-cell {
     width: 80%;
-    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .carousel-cell {
+    height: 520px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-cell {
+    width: 95%;
+    height: 620px;
   }
 }
 
 .carousel-cell.size-vertical { width: 35%; }
+
 @media only screen and (max-width: 1440px) {
   .carousel-cell.size-vertical {
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-cell.size-vertical {
+    width: 65%;
   }
 }
 </style>
