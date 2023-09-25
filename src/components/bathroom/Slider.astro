@@ -8,22 +8,42 @@
 <style>
   .carousel-cell {
   margin-right: 15px;
-  width: 65%;
-  height: 620px;
-  max-width: 1080px;
+  width: 70%;
+  height: 720px;
+  max-width: 1440px;
+  max-height: 80vh;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1680px) {
   .carousel-cell {
-    width: 80%;
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .carousel-cell {
     height: 420px;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .carousel-cell {
+    width: 90%;
+    height: 560px;
+  }
+}
+
 .carousel-cell.size-vertical { width: 35%; }
+
 @media only screen and (max-width: 1440px) {
   .carousel-cell.size-vertical {
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-cell.size-vertical {
+    width: 65%;
   }
 }
 </style>
@@ -33,14 +53,14 @@
   <div class="mx-auto px-4 sm:px-6 w-full lg:px-8">
     <div class="carousel" data-flickity='{ "contain": true, "autoPlay": 1400, "groupCells": "33%" }'>
 
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-6.webp);"></div>
-
-      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-1.webp);"></div>
-      
-      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-2.webp);"></div>
-      
       <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-7.webp);"></div>
 
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-1.webp);"></div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-6.webp);"></div>
+
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-2.webp);"></div>
+      
       <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-3.webp);"></div>
       
       <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-4.webp);"></div>
@@ -59,7 +79,7 @@
 
       <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-13.webp);"></div>
       
-      <div class="carousel-cell min-h-full size-vertical rounded-3xl">
+      <div class="carousel-cell size-vertical rounded-3xl">
         <img
           class=" rounded-3xl"
           width="460"
