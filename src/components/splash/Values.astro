@@ -3,39 +3,39 @@ const values = [
   [
     {
       ref: '01',
-      name: 'Excellence',
+      name: 'Functional Aesthetic',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Splash wall tiling is the perfect combination of form and function, making it an ideal choice for kitchens and bathrooms. It not only adds a touch of elegance but also offers a protective barrier against moisture and splashes, ensuring the longevity and beauty of your walls.',
     },
     {
       ref: '02',
-      name: 'Innovation',
+      name: 'Kitchen Splashbacks',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'In kitchens, splash wall tiling is commonly used as splashbacks behind stoves and sinks. It is a practical solution that not only guards against food splatters and spills but also enhances the visual appeal of your culinary space, allowing for easy cleaning and maintenance.',
     },
   ],
   [
     {
       ref: '03',
-      name: 'Teamwork',
+      name: 'Bathroom Wall Protection',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Splash wall tiling is equally valuable in bathrooms, where it shields walls from water splashes, ensuring they remain mold-free and structurally sound. It adds a luxurious touch to your bathroom, transforming it into a functional and aesthetically pleasing oasis.',
     },
     {
       ref: '04',
-      name: 'Respect',
+      name: 'Commercial Spaces and Wet Areas',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Beyond residential use, splash wall tiling is also an excellent choice for commercial spaces, particularly in wet areas such as restaurants, hotels, and spas. It combines durability with style, making it a practical and visually appealing solution for high-traffic environments.',
     },
   ],
 ];
 ---
 
 <section class="py-16 sm:py-20">
-  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+  <div class="mx-auto w-full px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-8 lg:gap-12">
       <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our Values</h2>
-      <div class="grid gap-8 lg:grid-cols-2">
+      <div class="grid gap-8 md:grid-cols-2">
         {
           values.map((column, index) => (
             <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>

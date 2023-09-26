@@ -3,39 +3,39 @@ const values = [
   [
     {
       ref: '01',
-      name: 'Excellence',
+      name: 'Bathrooms and Wet Areas',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'In wet areas like bathrooms and kitchens, tile waterproofing is essential to prevent water infiltration into walls and subfloors. Our professional tile waterproofing services create a watertight barrier, preserving the integrity of your surfaces and ensuring a dry, mold-free environment.',
     },
     {
       ref: '02',
-      name: 'Innovation',
+      name: 'Outdoor Living Spaces',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'When it comes to outdoor spaces, tile waterproofing is vital for patios, balconies, and terraces. It protects against weather-related wear and tear, preventing water damage to underlying structures and preserving the beauty and functionality of your outdoor tiled areas.',
     },
   ],
   [
     {
       ref: '03',
-      name: 'Teamwork',
+      name: 'Longevity and Property Value',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Tile waterproofing not only enhances the lifespan of your tiles but also adds value to your property by preventing costly water-related repairs. With our expert tile waterproofing services, you can enjoy the aesthetic appeal of your tiles while ensuring your investment is protected against moisture-related issues.',
     },
     {
       ref: '04',
-      name: 'Respect',
+      name: 'Comprehensive Waterproofing Solutions',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Tile waterproofing is a comprehensive solution designed to protect your property from water damage. Whether in bathrooms, kitchens, or outdoor spaces, our professional waterproofing services create a reliable barrier, preventing water infiltration, mold growth, and structural issues, ensuring the longevity and beauty of your tiles.',
     },
   ],
 ];
 ---
 
 <section class="py-16 sm:py-20">
-  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+  <div class="mx-auto w-full px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-8 lg:gap-12">
       <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our Values</h2>
-      <div class="grid gap-8 lg:grid-cols-2">
+      <div class="grid gap-8 md:grid-cols-2">
         {
           values.map((column, index) => (
             <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>
