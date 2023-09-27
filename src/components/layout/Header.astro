@@ -25,9 +25,9 @@ const links = [
 
 <header
   x-data="{ open: false }"
-  
+  style="background: #ffa81c10;"
   class="transition sticky top-0 z-50 backdrop-blur-xl shadow-sm"
-  :class="{ 'bg-primary-300/80 dark:bg-primary-800/80': open, 'bg-primary-50/60 dark:bg-primary-900/60': !(open) }"
+  :class="{ ' dark:bg-primary-800/80': open, 'bg-primary-50/60 dark:bg-primary-900/60': !(open) }"
 >
   <div
     class="mx-auto flex w-full items-center justify-between py-2 px-4 md:py-4 sm:px-6 xl:py-6 lg:max-w-7xl lg:px-8"

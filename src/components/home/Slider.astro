@@ -55,11 +55,19 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
+.flickity-page-dots .dot {
+  height: 4px !important;
+  width: 4px !important;
+  margin: 6px;
+}
+
 </style>
 
-<section class="py-4 sm:py-8">
+<section class="py-4 sm:py-8 px-4">
   
-  <div class="mx-auto px-4 sm:px-6 w-full lg:px-8">
+  <div class="px-4 sm:px-6 w-full lg:px-8 ">
     <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "autoPlay": 2400, "groupCells": "60%", "pauseAutoPlayOnHover": false }'>
 
       <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/splash/splash-2.webp); background-position: center;">
@@ -72,6 +80,10 @@
 
       <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-1.webp); background-position: center;">
         <h4>Large Format Tiles</h4>
+      </div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pods/3.webp); background-position: center;">
+        <h4>Pod Tiling</h4>
       </div>
 
       <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-3.webp); background-position: center;">
@@ -95,11 +107,11 @@
         <h4>Feature Walls</h4>
       </div>
       
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-6.webp); background-position: center;">
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-1.webp); background-position: center;">
         <h4>Seamless Dimensions</h4>
       </div>
       
-      <div class="carousel-cell min-h-full rounded-3xl" style="background-image: url(/assets/feature-wall/feature-2.webp); background-position: center;">
+      <div class="carousel-cell size-vertical min-h-full rounded-3xl" style="background-image: url(/assets/feature-wall/feature-8.webp); background-position: center;">
         <h4>Slate Feature Wall Tiling</h4>
       </div>
       <!-- bg-cover effect needs atleast one image used at back for flickity to work - INNER TEXT MIGHT BE A FIX -->
