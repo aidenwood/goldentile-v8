@@ -27,7 +27,7 @@
 }
 
 
-.carousel-cell.size-vertical { width: 25%; max-width: 468px; }
+.carousel-cell.size-vertical { width: 25%; max-width: 384px; }
 
 @media only screen and (max-width: 1440px) {
   .carousel-cell.size-vertical {
@@ -40,45 +40,77 @@
     width: 55%;
   }
 }
+
+.carousel-cell h4 { 
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    padding: 10px 20px;
+    color: #fff;
+    filter: drop-shadow(1px 2px 0.5px #000);
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 </style>
 
 <section class="py-4 sm:py-8 mb-4">
   
   <div class="mx-auto px-4 sm:px-6 w-full lg:px-8">
-    <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "autoPlay": 1400, "groupCells": "33%", "pauseAutoPlayOnHover": false }'>
+    <div class="carousel" data-flickity='{ "freeScroll": true, "contain": true, "autoPlay": 1400, "groupCells": "45%", "pauseAutoPlayOnHover": false }'>
 
-      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/splash/splash-2.webp);"></div>
-
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/splash/splash-1.webp);"></div>
-
-      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-1.webp);"></div>
-      
-      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-3.webp);"></div>
-      
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-4.webp);"></div>
-      
-      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-5.webp);"></div>
-
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-1.webp);"></div>
-
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-3.webp);"></div>
-
-      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-2.webp);"></div>
-
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-5.webp);"></div>
-      
-      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-2.webp);"></div>
-      
-      <div class="carousel-cell min-h-full size-vertical rounded-3xl">
-        <img
-          class=" rounded-3xl"
-          width="460"
-          height="920"
-          src="/assets/feature-wall/feature-2.webp"
-          alt="Gold Coast Tiler and Professional Tiling by Golden Tile for a Gold Coast client"
-        />
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/splash/splash-2.webp); background-position: center;">
+        <h4>Complex Tiling Patterns</h4>
       </div>
-      <!-- bg-cover effect needs atleast one image used at back for flickity to work -->
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/splash/splash-1.webp); background-position: center;">
+        <h4>Seamless Dimensions</h4>
+      </div>
+
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-1.webp); background-position: center;">
+        <h4>Large Format Tiles</h4>
+      </div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pods/2.webp); background-position: center;">
+        <h4>Pod Tiling Specialist</h4>
+      </div>
+      
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-3.webp); background-position: center;">
+        <h4>Pattern Work</h4>
+      </div>
+      
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-4.webp); background-position: center;">
+        <h4>Tile Cutting</h4>
+      </div>
+      
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-5.webp); background-position: center;">
+        <h4>Fitment Work</h4>
+      </div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pods/1.webp); background-position: center;">
+        <h4>Outdoor Tiling Specialist</h4>
+      </div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-3.webp); background-position: center;">
+        <h4>Stone and Pool Tiling</h4>
+      </div>
+
+      <div class="carousel-cell size-vertical rounded-3xl bg-cover h-full" style="background-image: url(/assets/bath/bath-2.webp); background-position: center;">
+        <h4>Feature Walls</h4>
+      </div>
+
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-5.webp); background-position: center;">
+        <h4>Complex Curved Tiling</h4>
+      </div>
+      
+      <div class="carousel-cell rounded-3xl bg-cover h-full" style="background-image: url(/assets/pool/pool-2.webp); background-position: center;">
+        <h4>Seamless Dimensions</h4>
+      </div>
+      
+      <div class="carousel-cell min-h-full rounded-3xl" style="background-image: url(/assets/feature-wall/feature-2.webp); background-position: center;">
+        <h4>Slate Feature Wall Tiling</h4>
+      </div>
+      <!-- bg-cover effect needs atleast one image used at back for flickity to work - INNER TEXT MIGHT BE A FIX -->
     </div>
   </div>
 </section>
