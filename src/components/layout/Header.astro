@@ -27,7 +27,7 @@ const links = [
   x-data="{ open: false }"
   style="background: #ffa81c10;"
   class="transition sticky top-0 z-50 backdrop-blur-xl shadow-sm"
-  :class="{ ' dark:bg-primary-800/80': open, 'bg-primary-50/60 dark:bg-primary-900/60': !(open) }"
+  :class="{ 'bg-primary-200/90 dark:bg-primary-800/80': open, 'bg-primary-50/60 dark:bg-primary-900/60': !(open) }"
 >
   <div
     class="mx-auto flex w-full items-center justify-between py-2 px-4 md:py-4 sm:px-6 xl:py-6 lg:max-w-7xl lg:px-8"
@@ -43,7 +43,7 @@ const links = [
           class="h-8 sm:h-12 lg:h-16 w-auto"
           width="65"
           height="40"
-          :src="$store.theme.isDark ? '/assets/logos/horizontal-light.svg' : '/assets/logos/horizontal-light.svg'"
+          :src="$store.theme.isDark ? '/assets/AN-GoldenTiling-Logo-Gold.svg' : '/assets/AN-GoldenTiling-Logo-DarkGold.svg'"
           alt="A N Golden Tile Logo"
         />
       </a>

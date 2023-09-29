@@ -66,7 +66,7 @@ const features = [
               <div
                 class="rounded-3xl px-4 transition"
                 x-data={`{ id: ${index}, get isOpen() { return this.id === this.selected }, get isNextOpen() { return (this.id + 1) === this.selected } }`}
-                x-bind:class="{ 'bg-primary-500/10 dark:bg-primary-400/10': isOpen }"
+                x-bind:class="{ 'bg-primary-600/10 dark:bg-primary-400/10': isOpen }"
               >
                 <dt
                   class="border-b text:lg md:text-2xl transition"
@@ -104,7 +104,7 @@ const features = [
                   </p>
                   <a
                     href={feature.link}
-                    class="bg-primary-600 dark:bg-primary-400 hover:bg-primary-700 dark:hover:bg-primary-300 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-6"
+                    class="bg-primary-700 dark:bg-yellow-300 hover:bg-primary-800 dark:hover:bg-primary-200 focus-visible:outline-primary-600 dark:focus-visible:outline-primary-400 dark:text-primary-950 inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3 text-base font-medium text-white transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-6"
                   >
                     More Info
                   </a>
