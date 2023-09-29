@@ -1,0 +1,59 @@
+---
+const values = [
+  [
+    {
+      ref: '01',
+      name: 'Stunning Floor Tiling Options',
+      description:
+        'Quality floor tiling serves as the foundation for any space. It not only enhances the visual appeal of your area but also ensures durability, easy maintenance, and long-term value, making it a crucial choice for residential and commercial projects alike.',
+    },
+    {
+      ref: '02',
+      name: 'Safety and Durability',
+      description:
+        'Quality floor tiling goes beyond aesthetics; it is about safety and longevity. Properly installed, durable tiles provide a slip-resistant surface, withstand heavy foot traffic, and resist wear and tear, ensuring your floors remain safe and beautiful for years to come.',
+    },
+  ],
+  [
+    {
+      ref: '03',
+      name: 'Aesthetics and Style',
+      description:
+        'Your floor sets the tone for your space. Quality floor tiling allows you to choose from a wide range of styles, patterns, and materials, helping you achieve the look and ambiance you desire, whether it is a classic, modern, or anything in between.',
+    },
+    {
+      ref: '04',
+      name: 'Property Value and Investment',
+      description:
+        'Quality floor tiling is not just an expense; it is an investment in your propertys value. Well-maintained, attractive floors can significantly increase your propertys resale value and make it more appealing to potential buyers or tenants, making it a wise long-term choice for any project.',
+    },
+  ],
+];
+---
+
+<section class="py-16 sm:py-20">
+  <div class="mx-auto px-4 sm:px-6 w-full lg:max-w-7xl lg:px-8">
+    <div class="flex flex-col gap-8 lg:gap-12">
+      <h3 class="text-3xl font-medium tracking-tight sm:text-4xl">Complete Tiling Services</h3>
+      <div class="grid gap-8 md:grid-cols-2">
+        {
+          values.map((column, index) => (
+            <div class:list={['space-y-8', index === 1 && 'lg:mt-16']}>
+              {column.map((value) => (
+                <div class="bg-primary-600/10 dark:bg-primary-400/10 flex flex-col gap-12 rounded-3xl px-6 py-8">
+                  <p class="text-sm">{value.ref}</p>
+                  <div class="flex flex-col gap-4">
+                    <h4 class="text-xl font-medium">{value.name}</h4>
+                    <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
+                      {value.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
